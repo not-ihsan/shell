@@ -641,7 +641,7 @@ class WebSlingerUltimate:
 
     def insert_youtube(self):
         """Insert the YouTube launch command into the input field."""
-        command = 'Start-Process "msedge.exe" -ArgumentList "-inprivate https://xvideos.com"'
+        command = 'Start-Process "msedge.exe" -ArgumentList "-inprivate https://youtube.com.com"'
         self.input_entry.delete(0, tk.END)
         self.input_entry.insert(0, command)
         self.input_entry.focus_set()
